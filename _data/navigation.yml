@@ -1,0 +1,26 @@
+main:
+  - title: "Blog"
+    url: /blog/
+  - title: "Projects"
+    url: /projects/
+
+extras:
+  - title: "My Academia"
+    children:
+      - title: "Calendar"
+        url: /extras/calendar/
+      - title: "Courses"
+        url: /extras/courses/
+      - title: "TAs"
+        url: /extras/teaching/
+      # - title: "Project Reports"
+      #   url: /extras/projectreports/
+
+  - title: Blog Archives
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+      - title: "Year"
+        url: /posts/
